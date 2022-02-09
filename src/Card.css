@@ -1,0 +1,5 @@
+.card__ImageBackground {
+  border: 20px solid var(--red);
+  height: 195px;
+  width: 195px;
+}
