@@ -20,11 +20,11 @@ function Hero({
 
             <div className="hero__Links flex  justify-between max-w-xs mt-2">
                 <a href={signUp}
-                    className='hero__Link '>
+                    className='hero__Link button'>
                     Get Started
                 </a>
                 <a href={signIn}
-                    className='hero__Link'>
+                    className='hero__Link button'>
                     Log in</a>
 
             </div>
