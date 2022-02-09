@@ -3,7 +3,7 @@ import './Card.css'
 function Card({
     image,
     title,
-    summary,
+    about,
     linkText,
     link
 }) {
