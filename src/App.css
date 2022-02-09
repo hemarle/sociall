@@ -5,3 +5,14 @@
   --red: #fe0a74;
   --black: #270212;
 }
+.button {
+  background-color: var(--red);
+  color: white;
+  width: 170px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin-inline: auto;
+}
