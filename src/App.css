@@ -29,5 +29,12 @@
     background-color: white;
     flex-direction: row-reverse;
     align-items: center;
+    justify-content: space-between;
+  }
+  .card:nth-child(3) .card__Image {
+    flex: 0;
+  }
+  .card:nth-child(3) .card__Content {
+    margin-left: 0;
   }
 }
