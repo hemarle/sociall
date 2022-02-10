@@ -3,7 +3,7 @@ import Card from './Card';
 import Hero from './Hero';
 import homeImage from './images/lady.png'
 import maskImage from './images/Mask.png'
-
+import manImage from './images/man.png'
 function App() {
     return (
         <div className="app">
@@ -15,7 +15,7 @@ function App() {
                 about='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
                 link='/signin'
                 linkText='Get Started'/>
-            <Card image={maskImage}
+            <Card image={manImage}
                 title='A Safe Way To Buy Accounts On Social Media'
                 about='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
                 link='/signin'
