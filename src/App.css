@@ -4,6 +4,7 @@
 :root {
   --red: #fe0a74;
   --black: #270212;
+  --grey: #fbfbfb;
 }
 .button {
   background-color: var(--red);
@@ -14,5 +15,19 @@
   align-items: center;
   justify-content: center;
   border-radius: 8px;
-  margin-inline: auto;
+  /* margin-inline: auto; */
+  margin: 0px auto;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    margin: 0%;
+  }
+  .card {
+    background-color: var(--grey);
+  }
+  .card:nth-child(3) {
+    background-color: white;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
 }
