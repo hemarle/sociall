@@ -4,7 +4,7 @@ import TestimonialCard from "./TestimonialCard";
 function Testimonial({ title, data }) {
   return (
     <div className="testimonial">
-      <h2>{title}</h2>
+      <h2 className="text-center mb-[25px]">{title}</h2>
 
       <div className="testimonial__Cards">
         {data.map(({ image, author, testimony, stars, role }) => (
