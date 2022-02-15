@@ -1,12 +1,25 @@
 import "./App.css";
 import Card from "./Card";
 import Hero from "./Hero";
+import Testimonial from "./Testimonial";
 import Tutorial from "./Tutorial";
+
 import homeImage from "./images/lady.png";
 import maskImage from "./images/Mask.png";
 import manImage from "./images/man.png";
-import videoImage from "./images/Video.png";
+import videoImage from "./images/vid.png";
+import girlImage from "./images/girl.png";
 function App() {
+  const testimonialData = [
+    {
+      testimony:
+        "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the race.",
+      stars: "",
+      image: girlImage,
+      author: "Amanda Jackson",
+      role: "CEO, NRD Group",
+    },
+  ];
   return (
     <div className="app">
       <Hero
@@ -34,6 +47,8 @@ function App() {
       />
 
       <Tutorial title="How It Works" video={videoImage} />
+
+      <Testimonial title="What Our Customers Say" data={testimonialData} />
     </div>
   );
 }
