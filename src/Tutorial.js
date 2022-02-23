@@ -12,7 +12,7 @@ function Tutorial({ title, video }) {
         <img
           src={video}
           alt="video link"
-          className="w-[90vw] max-w-[363px] max-h-[227px] mx-auto lg:max-w-[1025px] max-h-[470px]"
+          className=" relative z-10 w-[90vw] max-w-[363px] max-h-[227px] mx-auto lg:max-w-[1025px] max-h-[470px]"
         />
         <div className="tutorial__Border hidden lg:block lg:absolute lg:-top-10 lg:left-[65px] lg:w-[1003px] lg:h-[544px]"></div>
       </div>

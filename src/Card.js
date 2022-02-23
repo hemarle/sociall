@@ -2,14 +2,14 @@ import React from "react";
 import "./Card.css";
 function Card({ image, title, about, linkText, link }) {
   return (
-    <div className="card relative md:flex mt-[235px] px-5 md:py-[77px] md:px-[102px] md:m-0 ">
+    <div className="card relative lg:flex mt-[235px] px-5 md:py-[77px] md:px-[102px] md:m-0 ">
       <div className="card__Image relative w-[274px] max-w-max mx-auto md:w-[426px] md:mx-0 lg:max-w-[inherit] lg:z-[-10px]">
-        <div className="card__ImageBackground absolute -top-6 -left-6 -z-10 md:z-[12px]"></div>
+        <div className="card__ImageBackground absolute -top-6 -left-6 z-10 md:z-[-12px]"></div>
 
         <img
           src={image}
           alt=""
-          className="mb-[27px] lg:min-h-[412px] lg:min-w-[426px]"
+          className=" relative z-10 mb-[27px] lg:min-h-[412px] md:min-w-[426px]"
         />
       </div>
       <div className="card__Content md:mx-4 lg:mx-6 lg:ml-[84px] ">
