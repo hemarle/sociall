@@ -1,0 +1,12 @@
+.contact {
+  background-color: var(--wine);
+  color: white;
+}
+.contact__Link {
+  background-color: white;
+  color: var(--wine);
+  padding: 15px 46px;
+  display: block;
+  max-width: max-content;
+  border-radius: 8px;
+}

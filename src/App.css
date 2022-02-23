@@ -6,6 +6,7 @@
   --black: #270212;
   --grey: #fbfbfb;
   --blue: #293b5f;
+  --wine: #d4015d;
 }
 .button {
   background-color: var(--red);
