@@ -9,6 +9,7 @@ import maskImage from "./images/Mask.png";
 import manImage from "./images/man.png";
 import videoImage from "./images/vid.png";
 import girlImage from "./images/girl.png";
+import Contact from "./Contact";
 function App() {
   const testimonialData = [
     {
@@ -57,6 +58,13 @@ function App() {
       <Tutorial title="How It Works" video={videoImage} />
 
       <Testimonial title="What Our Customers Say" data={testimonialData} />
+
+      <Contact
+        title="Have An Enquiry"
+        about="Do you have a question you need answers to? contact us and our support team would respond shortly"
+        linkText="Contact us"
+        link="/contact us"
+      />
     </div>
   );
 }
