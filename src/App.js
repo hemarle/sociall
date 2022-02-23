@@ -11,6 +11,7 @@ import videoImage from "./images/vid.png";
 import girlImage from "./images/girl.png";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import Navigation from "./Navigation";
 function App() {
   const testimonialData = [
     {
@@ -30,8 +31,16 @@ function App() {
       role: "CEO, NRD Group",
     },
   ];
+
+  const navLinks = [
+    { link: "Home", linkUrl: "/" },
+    { link: "How it works", linkUrl: "#tutorial" },
+    { link: "COntact us", linkUrl: "#contact" },
+    { link: "Blog", linkUrl: "#blog" },
+  ];
   return (
     <div className="app">
+      <Navigation header="Allsocial" links={navLinks} />
       <Hero
         title="Social Media Accounts Instantly"
         about="Welcome to largest social media account exchange on the planet. Want to take a break permanently on social media or kickstart your influencer career, we've got you covered"
