@@ -1,0 +1,7 @@
+.testimonialCard {
+  box-shadow: 0px 3px 6px #0000001a;
+}
+
+.testimonialCard__Author {
+  color: var(--blue);
+}

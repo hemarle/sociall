@@ -5,6 +5,7 @@
   --red: #fe0a74;
   --black: #270212;
   --grey: #fbfbfb;
+  --blue: #293b5f;
 }
 .button {
   background-color: var(--red);
