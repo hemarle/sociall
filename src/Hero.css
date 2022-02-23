@@ -1,3 +1,4 @@
 .hero__Link:nth-child(2) {
   background-color: var(--black);
+  margin-left: 20px;
 }
