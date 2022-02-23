@@ -10,6 +10,7 @@ import manImage from "./images/man.png";
 import videoImage from "./images/vid.png";
 import girlImage from "./images/girl.png";
 import Contact from "./Contact";
+import Footer from "./Footer";
 function App() {
   const testimonialData = [
     {
@@ -65,6 +66,7 @@ function App() {
         linkText="Contact us"
         link="/contact us"
       />
+      <Footer />
     </div>
   );
 }
