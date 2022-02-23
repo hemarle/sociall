@@ -2,7 +2,7 @@ import React from "react";
 import "./TestimonialCard.css";
 function TestimonialCard({ testimony, stars, image, author, role }) {
   return (
-    <div className="testimonialCard px-[20px] py-[47px] h-[392px] text-center w-[90vw] max-w-[364px] mx-auto ">
+    <div className="testimonialCard px-[20px] py-[47px] mb-[81px] h-[392px] text-center w-[90vw] max-w-[364px] mx-auto ">
       <p className="min-h-[121px] mb-[8px]">{testimony}</p>
       <div className="stars">
         {/* <img src={stars} alt="Number of stars" /> */}

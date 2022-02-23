@@ -19,6 +19,14 @@ function App() {
       author: "Amanda Jackson",
       role: "CEO, NRD Group",
     },
+    {
+      testimony:
+        "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the race.",
+      stars: "",
+      image: girlImage,
+      author: "Amanda Jackson",
+      role: "CEO, NRD Group",
+    },
   ];
   return (
     <div className="app">
